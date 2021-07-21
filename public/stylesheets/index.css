@@ -1,0 +1,126 @@
+nav {
+  position: relative;
+}
+nav section {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 40px;
+}
+nav .contenedor-logo {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 45%;
+  z-index: 2;
+}
+
+.hero {
+  background-image: url("/public/img/fondo banner.png");
+  background-size: cover;
+  padding-top: 110px;
+  padding-bottom: 70px;
+  position: relative;
+}
+.hero .contenedor-img {
+  width: 47%;
+}
+.hero .descripcion {
+  font-family: sans-serif;
+  font-weight: 900;
+  width: 60%;
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  text-transform: capitalize;
+}
+@media screen and (min-width: 992px) {
+  .hero .descripcion {
+    width: 50%;
+    right: 40px;
+    top: 70px;
+  }
+}
+.hero .descripcion p {
+  line-height: 0.8;
+  font-size: 70px;
+}
+.hero .descripcion p.mayor {
+  font-size: 80px;
+}
+.hero .descripcion p.left {
+  text-align: left;
+}
+.hero .descripcion p.salido {
+  margin-left: -50px;
+}
+.hero .descripcion p.right {
+  text-align: right;
+}
+.hero .descripcion .center {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero .descripcion .center p {
+  font-size: 50px;
+}
+.hero .descripcion .center p.mayor {
+  font-size: 60px;
+}
+
+.banner2 .presentacion {
+  padding: 25px;
+  display: flex;
+}
+.banner2 .presentacion .descripcion, .banner2 .presentacion .link {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner2 .presentacion p {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+.banner2 .presentacion p.mayor {
+  font-size: 33px;
+}
+.banner2 .contenedor-objetivos {
+  background: url("/public/img/fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner2 .contenedor-objetivos .contenedor-donaplay {
+  background-image: url("/public/img/donaplay.png");
+  background-repeat: no-repeat;
+  background-position: 90% center;
+}
+.banner2 .contenedor-objetivos .objetivos {
+  width: 60%;
+  padding: 190px 140px;
+}
+.banner2 .contenedor-objetivos .objetivos .cabecera {
+  font-size: 55px;
+}
+.banner2 .contenedor-objetivos .objetivos .distribucion {
+  font-size: 32px;
+  margin-left: 40px;
+}
+
+.contenedor-registro {
+  background: #ffe6a5;
+  background: linear-gradient(152deg, #ffe6a5 0%, #a837ad 50%, #417eff 100%);
+  padding: 150px 70px;
+}
+.contenedor-registro .registro {
+  background: url("/public/img/loteria ttt.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*# sourceMappingURL=index.css.map */
