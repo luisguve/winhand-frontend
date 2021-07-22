@@ -1,16 +1,23 @@
-body, p {
+* {
   margin: 0;
   font-family: sans-serif;
 }
 
-h1 {
-  font-size: 1.4em;
-  margin: 0;
+nav h1 {
+  font-size: 1rem;
 }
-
-h2 {
-  font-size: 1.2em;
-  margin: 0;
+@media screen and (min-width: 768px) {
+  nav h1 {
+    font-size: 1.4rem;
+  }
+}
+nav h2 {
+  font-size: 1rem;
+}
+@media screen and (min-width: 768px) {
+  nav h2 {
+    font-size: 1.2rem;
+  }
 }
 
 img {
@@ -29,12 +36,24 @@ img {
   background: #1b1b1b;
 }
 
+.fondo-morado {
+  background: #9933cc;
+}
+
+.fondo-blanco {
+  background: white;
+}
+
 .texto-blanco {
   color: white;
 }
 
 .texto-negro {
   color: #131313;
+}
+
+.texto-morado {
+  color: fuchsia;
 }
 
 .sombreado {
@@ -58,7 +77,7 @@ img {
 
 a.btn {
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1rem;
   text-decoration: none;
   color: black;
   background: #fff;
@@ -68,6 +87,14 @@ a.btn {
 a.btn.btn-negro {
   background: #282828;
   color: white;
+}
+a.btn.btn-negro:hover {
+  background: #646464;
+}
+@media screen and (min-width: 992px) {
+  a.btn {
+    font-size: 1.25rem;
+  }
 }
 
 /*# sourceMappingURL=global.css.map */
